@@ -1,0 +1,19 @@
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if(!isset($_POST['new'])) { // UPDATE BATTERY
+    ELSE						// CREATE BATTERY
+
+
+if(isset($_GET['page']) && is_numeric($_GET['page'])) { // GET X (PAGE) RECORDS FILTERED BY BELOW
+    if(isset($_GET['name']))
+    if(isset($_GET['idd'])) {
+    if(isset($_GET['type'])) {
+    if(isset($_GET['subtype'])) {
+ 
+else if(isset($_GET['page']) && $_GET['page']==="all") { // SAME AS ABOVE BUT RETURNS ALL RECORDS
+
+
+else if(isset($_GET['special'])) {
+    if($_GET['special'] == "batTypes") {
+    if($_GET['special'] == "batSubTypes") {
+
+    pack idd 
